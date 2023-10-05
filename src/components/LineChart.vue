@@ -1,7 +1,5 @@
 <template>
-  <div class="bg-[#00143B] w-full h-[250px] shadow rounded">
-    <div id="chart"></div>
-  </div>
+  <div id="chart" class="h-[250px] bg-[#00143B] w-full shadow rounded"></div>
 </template>
 <script>
 import Highcharts from "highcharts";

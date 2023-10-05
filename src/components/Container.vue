@@ -91,7 +91,9 @@
           </div>
         </div>
       </div>
+      <div class="mb-3">
       <LineChart />
+      </div>
       <BarChart />
     </div>
   </section>
