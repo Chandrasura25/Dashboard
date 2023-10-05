@@ -1,37 +1,59 @@
 export const sidebarLinks = [
     {
-        imgURL: "./assets/dashboard.png",
+        imgURL: "dashboard.png",
         route: "#",
         label: "Dashboard",
     },
     {
-        imgURL: "/assets/user.svg",
+        imgURL: "branches.png",
         route: "#",
         label: "Branches",
     },
     {
-        imgURL: "/assets/coin-dollar.svg",
+        imgURL: "enroll.png",
         route: "#",
         label: "Enroll",
     },
     {
-        imgURL: "/assets/address-book-1109.svg",
+        imgURL: "academics.png",
         route: "#",
         label: "Academics",
     },
     {
-        imgURL: "/assets/money-withdraw.svg",
+        imgURL: "attendance.png",
         route: "#",
         label: "Attendance",
     },
     {
-        imgURL: "/assets/menu.svg",
+        imgURL: "guardians.png",
         route: "#",
         label: "Guardians",
     },
     {
-        imgURL: "/assets/community.svg",
+        imgURL: "exam.png",
         route: "#",
         label: "Exam Master",
     },
 ];
+export const subSidebarLinks = [
+    {
+        imgURL: "employess.png",
+        route: "#",
+        label: "Employee",
+    },
+    {
+        imgURL: "accounting.png",
+        route: "#",
+        label: "Student Accounting",
+    },
+    {
+        imgURL: "roles.png",
+        route: "#",
+        label: "Roles & Permissions",
+    },
+    {
+        imgURL: "settings.png",
+        route: "#",
+        label: "Setttings",
+    },
+]

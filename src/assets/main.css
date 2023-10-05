@@ -20,3 +20,27 @@
 .leftsidebar_link {
   @apply relative flex justify-start gap-4 rounded-lg px-4 py-2;
 }
+@layer utilities {
+  .css-invert {
+    @apply invert-[50%] brightness-200;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #150B62;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #43a5f6;
+    border-radius: 50px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #43a5f6;
+  }
+}
