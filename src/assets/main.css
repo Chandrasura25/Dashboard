@@ -1,3 +1,4 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
 @import './base.css';
 @tailwind base;
 @tailwind components;

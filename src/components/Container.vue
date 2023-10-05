@@ -54,6 +54,9 @@
           </div>
         </div>
       </div>
+      <div>
+        <PieChart/>
+      </div>
     </div>
     <div class="flex flex-col gap-3">
       <div class="flex gap-3">
@@ -88,6 +91,13 @@
           </div>
         </div>
       </div>
+      <LineChart />
+      <BarChart />
     </div>
   </section>
 </template>
+<script setup>  
+    import LineChart from "../components/LineChart.vue";   
+    import BarChart from "../components/BarChart.vue";   
+    import PieChart from "../components/PieChart.vue";   
+</script> 
