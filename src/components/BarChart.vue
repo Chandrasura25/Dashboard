@@ -9,7 +9,7 @@ export default {
     Highcharts.chart("barchart", {
       chart: {
         type: "column",
-        backgroundColor: '#00143B',
+        backgroundColor: "#00143B",
       },
 
       title: {

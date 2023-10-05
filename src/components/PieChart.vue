@@ -9,7 +9,7 @@ export default{
    mounted(){
       Highcharts.chart('piechart', {
     chart: {
-       backgroundColor: '#00143B',
+        backgroundColor: "#00143B",
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,

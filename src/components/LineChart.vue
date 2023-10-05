@@ -9,7 +9,7 @@ export default {
     Highcharts.chart("chart", {
       chart: {
         type: "spline",
-        backgroundColor: '#00143B',
+        backgroundColor: "#00143B",
       },
       title: {
         text: "Monthly Average Temperature",
