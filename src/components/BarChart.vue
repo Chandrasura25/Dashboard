@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#00143B] w-full h-[250px] shadow rounded">
-    <div id="chart"></div>
+    <div id="barchart"></div>
  </div>
 </template>
 <script>
@@ -8,9 +8,10 @@ import Highcharts from "highcharts";
 
 export default {
   mounted() {
-    Highcharts.chart("chart", {
+    Highcharts.chart("barchart", {
       chart: {
         type: "column",
+        backgroundColor: '#00143B',
       },
 
       title: {

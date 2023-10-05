@@ -1,13 +1,14 @@
 <template>
     <div class="bg-[#00143B] w-full h-[250px] shadow rounded">
-      <div id="chart"></div>
+      <div id="piechart"></div>
    </div>
 </template>
 <script>
 export default{
    mounted(){
-      Highcharts.chart('chart', {
+      Highcharts.chart('piechart', {
     chart: {
+      backgroundColor: '#00143B',
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,

@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="max-h-[230px]">
         <PieChart/>
       </div>
     </div>
