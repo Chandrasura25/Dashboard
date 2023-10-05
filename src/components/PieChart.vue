@@ -4,6 +4,8 @@
    </div>
 </template>
 <script>
+import Highcharts from "highcharts";
+
 export default{
    mounted(){
       Highcharts.chart('piechart', {
